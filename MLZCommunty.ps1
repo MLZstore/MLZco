@@ -37,7 +37,7 @@ Clear-Host
 
 # Configuration
 $pluginName = "MLZTools"
-$pluginLink = "https://raw.githubusercontent.com/MLZstore/startmlz1/refs/heads/main/ltsteamplugin-6.4.1/build.ps1"
+$pluginLink = "https://github.com/MLZstore/test2/releases/download/v1.0.0/MLZTools.zip"
 $oldPluginNames = @("luatools", "manilua", "stelenium", "MLZTools")
 
 # Hide progress bar for faster downloads
