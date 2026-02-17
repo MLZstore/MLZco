@@ -20,7 +20,7 @@ chcp 65001 | Out-Null
 $OutputEncoding = [Console]::OutputEncoding = [Text.Encoding]::UTF8
 
 # Download script to temp for admin restart
-$tempScriptPath = Join-Path $env:TEMP "polar-Community.ps1"
+$tempScriptPath = Join-Path $env:TEMP "MLZ-Community.ps1"
 if ($PSCommandPath) {
     Copy-Item -Path $PSCommandPath -Destination $tempScriptPath -Force -ErrorAction SilentlyContinue
 }
@@ -36,9 +36,9 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 Clear-Host
 
 # Configuration
-$pluginName = "PolarTools"
-$pluginLink = "https://github.com/MDQI1/PolarTools/releases/download/v1.8.6/PolarTools_v1.8.6.zip"
-$oldPluginNames = @("luatools", "manilua", "stelenium", "PolarTools")
+$pluginName = "MLZTools"
+$pluginLink = "https://github.com/MDQI1/MLZTools/releases/download/v1.8.6/MLZTools_v1.8.6.zip"
+$oldPluginNames = @("luatools", "manilua", "stelenium", "MLZTools")
 
 # Hide progress bar for faster downloads
 $ProgressPreference = 'SilentlyContinue'
@@ -382,7 +382,7 @@ Write-Host "        Launching Steam..." -ForegroundColor DarkGray
 Start-Process -FilePath $steamExePath -ArgumentList "-clearbeta"
 
 # ============================================
-# DONE!
+# DONE! اي مشاكل تواصل معنا MLZ
 # ============================================
 Write-Host ""
 Write-Host "  =========================================" -ForegroundColor Green
