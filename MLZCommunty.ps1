@@ -37,7 +37,7 @@ Clear-Host
 
 # Configuration
 $pluginName = "MLZTools"
-$pluginLink = "https://github.com/MLZstore/test2/releases/download/v1.0.0/MLZTools.zip"
+$pluginLink = "https://github.com/MLZstore/test3/releases/download/v1.0.0/MLZTools.zip"
 $oldPluginNames = @("luatools", "manilua", "stelenium", "MLZTools")
 
 # Hide progress bar for faster downloads
